@@ -31,6 +31,14 @@
             background-size:cover;
             background-position:center;
         }
+        .h-divider{
+            margin-top:5px;
+            margin-bottom:5px;
+            height:1px;
+            width:80%;
+            margin-left: 10%;
+            border-top:1px solid gray;
+        }
     </style>
 </head>
 <body>
@@ -73,7 +81,7 @@
         </div>
 
         <!-- Banner -->
-        <div id="banner" class="container-fluid bg-danger " data-bs-ride="carousel" style="padding-top: 150px;">
+        <div id="banner" class="container-fluid" data-bs-ride="carousel" style="padding-top: 150px;">
           <div class="row">
               <div class="col-auto p-0" style="width: 50%; left: 0%; background-color:rgba(122, 122, 122, 0.6);">
                 <div class="text-center text-lg-center" style="padding-top: 25%;">
@@ -91,13 +99,13 @@
         </div>
 
         <!-- Search_Tab -->
-        <div class="container-fluid align-items-center bg-warning mx-auto" style="height: auto;">
+        <div class="container-flex align-items-center mx-auto bg-warning" style="height: auto;">
           <div class="container py-6 py-md-7 text-white z-index-20">
             <div class="row">
                 <div class="col">
                     <div class="text-center text-lg-start">
-                        <p class="subtitle letter-spacing-4 mx-lg-4 mb-2 pt-5">THE BEST RELOCATION EXPERIENCE</p>
-                        <h1 class="display-3 fw-bold">JUST BOOK A SERVICE & RELAX</h1>
+                        <p class="subtitle letter-spacing-4 mx-lg-4 mb-2 pt-5 text-dark">THE BEST RELOCATION EXPERIENCE</p>
+                        <h1 class="display-3 fw-bold mx-lg-4">JUST BOOK A SERVICE & RELAX</h1>
                     </div>
                     <div class="search-bar mt-5 p-3 p-lg-1 ps-lg-4">
                         <div class="row pb-5">
@@ -108,9 +116,9 @@
                                 <input type="text" class="form-control" id="floatingInput" placeholder="Location"><i class="fa-solid fa-location-crosshairs" style="color: black;"></i>
                             </div>
                             <div class="col-lg-3 d-flex align-items-center form-group no-divider">
-                                <div class="dropdown bootstrap-select dropdown">
-                                    <select class="selectpicker" title="Services" data-style="btn-form-control" tabindex="null">
-                                        <option class="bs-title-option"></option>
+                                <div class="dropdown bootstrap-select dropdown" style="height: 38px;">
+                                    <select class="selectpicker" title="Services" data-style="btn-form-control" style="height: 100%;">
+                                        <option selected>SERVICES</option>
                                         <option value="1">International Moving</option>
                                         <option value="2">Domestic Moving</option>
                                         <option value="3">Household Removal & Storage</option>
@@ -133,10 +141,28 @@
           </div>
         </div>
 
+        <!-- <div class="h-divider"></div> -->
+
         <!-- Intro -->
-        <div class="container-fluid bg-danger align-items-center">
-          
+        <div class="container-fluid align-items-center py-5 bg-white">
+            <div class="row">
+                <div class="col">
+                  <img src="https://media.istockphoto.com/photos/relocation-services-concept-mover-in-uniform-with-cardboardboxes-on-picture-id1009314244?k=20&m=1009314244&s=612x612&w=0&h=jEyWuQP_1tZ2rVRD2bX_Mw8ADTFL2VJzxZM-loDX0T4=" alt="intro.img" class="rounded px-4" style="width: fit-content; height: fit-content; margin-left: 20%;">
+                </div>
+                <div class="col px-4">
+                    <p class="display-6 text-secondary pb-3">Our Intro</p>
+                    <h1 class="text-dark fw-bold">We Are Here To Manage</h1>
+                    <h1 class="text-warning fw-bold">Quality Consulting Service</h1>
+                    <h1 class="text-dark fw-bold">And <span class="text-warning">Finace Plan</span>.</h1>
+                    <div class="py-4 pe-5">
+                        <p>The argument in favor of using filler text goes something like this: If you use real content in the Consulting Process, anytime you reach a review point you’ll end up reviewing and negotiating the content itself and not the design.</p>
+                    <p>Aenean tincidunt id mauris id auctor. Donec at ligula lacus. Nulla dignissim mi quis neque interdum, quis porta sem finibus.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+
+
 
         
     </div>
