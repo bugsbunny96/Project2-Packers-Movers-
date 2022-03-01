@@ -15,17 +15,10 @@ body.dark{
     background-color: #292C35;
 }
 
-body.dark h1 h2 h4 h6 p {
+body.dark h1 h2 h4 h5 h6 p {
     color: #fff;
 }
 
-body.dark #display {
-    color: #fff;
-}
-
-body.dark .button {
-    color: #fff;
-}
 
 .label {
     background-color: #111;
@@ -82,4 +75,69 @@ body.dark .button {
     width:80%;
     margin-left: 10%;
     border-top:1px solid gray;
+}
+
+.fa-calendar-days {
+    color: #f1c40f;
+    border: 2px dotted #f1c40f;
+    border-radius: 50%;
+}
+
+.fa-box {
+    color: #f1c40f;
+    border: 2px dotted #f1c40f;
+    border-radius: 50%;
+}
+
+.fa-house {
+    color: #f1c40f;
+    border: 2px dotted #f1c40f;
+    border-radius: 50%;
+}
+
+.fa-truck {
+    color: #f1c40f;
+    border: 2px dotted #f1c40f;
+    border-radius: 50%;
+}
+
+.fa-earth-asia {
+    color: #f1c40f;
+    border: 2px dotted #f1c40f;
+    border-radius: 50%;
+}
+
+.fa-users {
+    color: #f1c40f;
+    border: 2px dotted #f1c40f;
+    border-radius: 50%;
+}
+
+#Serv1:hover {
+    background-color: #f39c12;
+}
+#Serv2:hover {
+    background-color: #f39c12;
+}
+#Serv3:hover {
+    background-color: #f39c12;
+}
+#Serv4:hover {
+    background-color: #f39c12;
+}
+#Serv5:hover {
+    background-color: #f39c12;
+}
+#Serv6:hover {
+    background-color: #f39c12;
+}
+
+#quote {
+    background-image: url(https://www.ledger.com/wp-content/uploads/2022/02/04-02-BlogpostHeader-1-1024x453.png);
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
 }
